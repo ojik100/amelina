@@ -248,9 +248,9 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Nama Ibuk</label>
+                        <label for="" class="col-sm-2 col-form-label">Nama Ibu</label>
                         <div class="col-sm-10">
-                          <input type="text" name="nama_ibuk"  class="form-control" placeholder="Ibuk" >
+                          <input type="text" name="nama_ibuk"  class="form-control" placeholder="Ibu" >
                         </div>
                       </div>
                       <div class="form-group row">
@@ -261,16 +261,16 @@
                        </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibuk</label>
+                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibu</label>
                         <div class="col-sm-10">
-                        <input type="text" name="pekerjaan_ibuk"  class="form-control" placeholder="Pekerjaan Ibuk" >
+                        <input type="text" name="pekerjaan_ibuk"  class="form-control" placeholder="Pekerjaan Ibu" >
                         
                     </div>
                       </div>
                       <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">No Wali</label>
+                        <label for="inputName" class="col-sm-2 col-form-label">Nomor Wali</label>
                         <div class="col-sm-10">
-                          <input type="number" name="no_wali" class="form-control" placeholder="No Wali" >
+                          <input type="number" name="no_wali" class="form-control" placeholder="Nomor Wali" >
                         </div>
                       </div>
                       

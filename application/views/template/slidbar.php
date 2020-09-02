@@ -65,14 +65,14 @@
               </p>
             </a>
           </li>
-          <li class="nav-item">
+         <!--  <li class="nav-item">
             <a href="<?= base_url() ?>" class="nav-link">
               <i class="nav-icon fas fa-globe"></i>
               <p>
                 WEB 
               </p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="<?= base_url('Auth/logout') ?>" class="nav-link">
               <i class="fa fa-sign-out-alt"></i>

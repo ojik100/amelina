@@ -38,18 +38,18 @@
                         <input type="text" class="form-control" name="nama_ayah" required placeholder="Nama Ayah" id="">
                     </div>
                     <div class="col-md-8">
-                        <label for=""><b>Nama Ibuk :</b></label>
-                        <input type="text" class="form-control" name="nama_ibuk" required placeholder="Nama Ibuk" id="">
+                        <label for=""><b>Nama Ibu :</b></label>
+                        <input type="text" class="form-control" name="nama_ibuk" required placeholder="Nama Ibu" id="">
                     </div>
                     <div class="col-md-8">
                         <label for=""><b>Pekerjaan Ayah :</b></label>
                         <input type="text" class="form-control" name="pekerjaan_ayah" required placeholder="Pekerjaan Ayah" id="">
                     </div>
                     <div class="col-md-8">
-                        <label for=""><b>Pekerjaan Ibuk :</b></label>
-                        <input type="text" class="form-control" name="pekerjaan_ibuk" required placeholder="Pekerjaan Ibuk" id="">
+                        <label for=""><b>Pekerjaan Ibu :</b></label>
+                        <input type="text" class="form-control" name="pekerjaan_ibuk" required placeholder="Pekerjaan Ibu" id="">
                     </div>  <div class="col-md-8">
-                        <label for=""><b>Nomor Telpon Wali :</b></label>
+                        <label for=""><b>Nomor Wali :</b></label>
                         <input type="text" class="form-control" name="no_wali" required  id="">
                     </div>
                     <br>

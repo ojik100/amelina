@@ -27,7 +27,7 @@
     <div class="card-body login-card-body">
     <center>  <img src="<?= base_url() ?>asset/image/logo.png" width="80" alt="">
   </center>
-      <h3 class="login-box-msg">Regitrasi Alumni</h3>
+      <h3 class="login-box-msg">Registrasi Alumni</h3>
 
       <form action="<?= base_url('Daftar/aksi') ?>" method="post">
         <div class="input-group mb-3">

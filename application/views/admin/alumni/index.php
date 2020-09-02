@@ -28,7 +28,7 @@
                   <th>Nama Alumni</th>
                   <th>Jenis Kelamin</th>
                   <th>Angkatan</th>
-                  <th>Poto</th>
+                  <th>Foto</th>
                 <th style="text-align:center" > <a href="<?= base_url('Alumni/tambah') ?>"><i class="btn btn-primary"><span class="fa fa-plus-circle"> Tambah Data</span></i> </a>
                  </th>
                 </tr>
