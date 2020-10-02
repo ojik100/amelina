@@ -170,8 +170,8 @@
                         <select name="id_kab" id="" class="form-control" value="<?= $a->kabupaten ?>">
                             <option value="" >Pilih</option>
                             <?php foreach($kabupaten as $k):?>
-											
-                                            <option  value="<?= $k->id_kab?>"><?= $k->kabupaten ?></option>
+								
+                            <option  value="<?= $k->id_kab?>"><?= $k->kabupaten ?></option>
                                                                
                                                                    
                                         <?php endforeach;?>
@@ -248,9 +248,9 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Nama Ibu</label>
+                        <label for="" class="col-sm-2 col-form-label">Nama Ibuk</label>
                         <div class="col-sm-10">
-                          <input type="text" name="nama_ibuk"  class="form-control" placeholder="Ibu" >
+                          <input type="text" name="nama_ibuk"  class="form-control" placeholder="Ibuk" >
                         </div>
                       </div>
                       <div class="form-group row">
@@ -261,16 +261,16 @@
                        </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibu</label>
+                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibuk</label>
                         <div class="col-sm-10">
-                        <input type="text" name="pekerjaan_ibuk"  class="form-control" placeholder="Pekerjaan Ibu" >
+                        <input type="text" name="pekerjaan_ibuk"  class="form-control" placeholder="Pekerjaan Ibuk" >
                         
                     </div>
                       </div>
                       <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">Nomor Wali</label>
+                        <label for="inputName" class="col-sm-2 col-form-label">No Wali</label>
                         <div class="col-sm-10">
-                          <input type="number" name="no_wali" class="form-control" placeholder="Nomor Wali" >
+                          <input type="number" name="no_wali" class="form-control" placeholder="No Wali" >
                         </div>
                       </div>
                       

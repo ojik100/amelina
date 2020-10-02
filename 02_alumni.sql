@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 28, 2020 at 04:16 AM
+-- Generation Time: Oct 02, 2020 at 09:58 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -76,7 +76,9 @@ CREATE TABLE `tb_alumni` (
 --
 
 INSERT INTO `tb_alumni` (`id_alumni`, `nis`, `nama`, `jk`, `tempat_lhr`, `tgl_lhr`, `angkatan`, `id_jur`, `marhalah`, `no`, `email`, `poto`, `pekerjaan`, `alamat`, `id_kec`, `id_kab`, `id_prov`, `lattitude`, `longitude`, `password`, `creat_at`) VALUES
-(1, '10', 'AMELINA', 'Perempuan', 'selong', '2020-08-13', 2016, 0, 'dsd', '2323', '1@gmail.com', '001_login-admin2.png', 'dsd', 'dsd', 0, 0, 0, '', '', '12', '2020-08-25 16:28:57');
+(1, '10', 'AMELINA', '', 'selong', '2020-08-13', 2016, 0, 'dsd', '2323', '1@gmail.com', '001_login-admin.png', 'dsd', 'dsd', 0, 0, 0, '-8.881332808743238', '117.23448407656389', '12', '2020-08-25 16:28:57'),
+(4, '2002', 'HGUSNUL KHATIMAH', 'Perempuan', 'ewewewe', '2020-08-18', 3232, 2, 'dsds', '232323', 'berugakitlombok@gmail.com', '01_login-alumni.png', 'ewe', 'ewe', 0, 0, 0, '-8.451839568457657', '117.2417736802276', '2002', '2020-08-29 08:58:56'),
+(5, '12', 'MUHAMMAD FAHRURROZI', '', '', '', 0, 1, '', '', '', '', '', '', 0, 0, 0, '', '', '12', '2020-09-01 14:16:22');
 
 -- --------------------------------------------------------
 
@@ -97,7 +99,8 @@ CREATE TABLE `tb_info` (
 --
 
 INSERT INTO `tb_info` (`id_info`, `nama_info`, `gambar`, `info`, `create_at`) VALUES
-(1, 'INFO ALUMNI', '20200818_233422.jpg', 'Assalamualaiku.Wr.Wb', '2020-08-28 02:10:39');
+(1, 'INFO ALUMNI', '001_login-admin.png', 'Assalamualaiku.Wr.Wb', '2020-08-28 07:25:45'),
+(2, 'dewew', '005_halaman-data-info-alumni1.png', 'ewewew', '2020-08-29 09:02:38');
 
 -- --------------------------------------------------------
 
@@ -133,6 +136,16 @@ CREATE TABLE `tb_kabupaten` (
   `kabupaten` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `tb_kabupaten`
+--
+
+INSERT INTO `tb_kabupaten` (`id_kab`, `id_prov`, `kabupaten`) VALUES
+(1, 1, 'LOMBOK TIMUR'),
+(2, 1, 'LOMBOK BARAT'),
+(3, 1, 'LOMOBOK TENGAH'),
+(4, 1, 'LOMBOK UTARA');
+
 -- --------------------------------------------------------
 
 --
@@ -145,6 +158,15 @@ CREATE TABLE `tb_kecamatan` (
   `kecamatan` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `tb_kecamatan`
+--
+
+INSERT INTO `tb_kecamatan` (`id_kec`, `id_kab`, `kecamatan`) VALUES
+(1, 1, 'JEROWARU'),
+(2, 1, 'SELONG'),
+(3, 1, 'KERUAK');
+
 -- --------------------------------------------------------
 
 --
@@ -155,6 +177,13 @@ CREATE TABLE `tb_provinsi` (
   `id_prov` int(11) NOT NULL,
   `provinsi` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `tb_provinsi`
+--
+
+INSERT INTO `tb_provinsi` (`id_prov`, `provinsi`) VALUES
+(1, 'NTB');
 
 -- --------------------------------------------------------
 
@@ -177,7 +206,7 @@ CREATE TABLE `tb_wali` (
 --
 
 INSERT INTO `tb_wali` (`id_wali`, `id_alumni`, `nama_ayah`, `nama_ibuk`, `pekerjaan_ayah`, `pekerjaan_ibuk`, `no_wali`) VALUES
-(1, 1, 'UDIN', 'SANTI', 'GURU', 'GURU', '08786330141');
+(5, 1, 'UDIN asasa', 'SANTI', 'da', 'GURU', '08786330141');
 
 --
 -- Indexes for dumped tables
@@ -245,13 +274,13 @@ ALTER TABLE `tb_admin`
 -- AUTO_INCREMENT for table `tb_alumni`
 --
 ALTER TABLE `tb_alumni`
-  MODIFY `id_alumni` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_alumni` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `tb_info`
 --
 ALTER TABLE `tb_info`
-  MODIFY `id_info` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_info` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tb_jurusan`
@@ -260,10 +289,28 @@ ALTER TABLE `tb_jurusan`
   MODIFY `id_jur` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
+-- AUTO_INCREMENT for table `tb_kabupaten`
+--
+ALTER TABLE `tb_kabupaten`
+  MODIFY `id_kab` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `tb_kecamatan`
+--
+ALTER TABLE `tb_kecamatan`
+  MODIFY `id_kec` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `tb_provinsi`
+--
+ALTER TABLE `tb_provinsi`
+  MODIFY `id_prov` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT for table `tb_wali`
 --
 ALTER TABLE `tb_wali`
-  MODIFY `id_wali` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_wali` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

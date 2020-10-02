@@ -218,7 +218,7 @@
                         </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Nama Ibu</label>
+                        <label for="" class="col-sm-2 col-form-label">Nama Ibuk</label>
                         <div class="col-sm-10">
                           <input type="text" value=<?= $a->nama_ibuk ?> disabled class="form-control" >
                         </div>
@@ -230,13 +230,13 @@
                        </div>
                       </div>
                       <div class="form-group row">
-                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibu</label>
+                        <label for="" class="col-sm-2 col-form-label">Pekerjaan Ibuk</label>
                         <div class="col-sm-10">
                         <textarea name="" id="" class="form-control" disabled><?= $a->pekerjaan_ibuk ?> </textarea>
                          </div>
                       </div>
                       <div class="form-group row">
-                        <label for="inputName" class="col-sm-2 col-form-label">Nomor Wali</label>
+                        <label for="inputName" class="col-sm-2 col-form-label">No Wali</label>
                         <div class="col-sm-10">
                           <input type="text" value=<?= $a->no_wali ?> disabled class="form-control" >
                         </div>

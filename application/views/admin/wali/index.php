@@ -24,12 +24,12 @@
                   
                   <thead>
                 <tr>
-                  <th>Nama Siswa</th>
+                <th>Nama Siswa</th>
                   <th>Nama Ayah</th>
-                  <th>Nama Ibu</th>
+                  <th>Nama Ibuk</th>
                   <th>Pekerjaan Ayah</th>
-                  <th>Pekerjaan Ibu</th>
-                  <th>Nomor Wali</th>
+                  <th>Pekeraan Ibuk</th>
+                  <th>Nomo Wali</th>
                  <th
                   style="text-align:center" > <a href="<?= base_url('Wali/tambah') ?>"><i class="btn btn-primary"><span class="fa fa-plus-circle"> Tambah Data</span></i> </a>
                  </th>

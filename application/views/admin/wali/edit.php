@@ -43,25 +43,26 @@
                         <input type="text" class="form-control" value="<?= $a->nama_ayah ?>" name="nama_ayah" required placeholder="Nama Ayah" id="">
                     </div>
                     <div class="col-md-8">
-                        <label for=""><b>Nama Ibu :</b></label>
-                        <input type="text" class="form-control" name="nama_ibuk"  value="<?= $a->nama_ibuk ?>" required placeholder="Nama Ibu" id="">
+                        <label for=""><b>Nama Ibuk :</b></label>
+                        <input type="text" class="form-control" name="nama_ibuk"  value="<?= $a->nama_ibuk ?>" required placeholder="Nama Ibuk" id="">
                     </div>
                     <div class="col-md-8">
                         <label for=""><b>Pekerjaan Ayah :</b></label>
                         <input type="text" class="form-control" name="pekerjaan_ayah"  value="<?= $a->pekerjaan_ayah ?>" required placeholder="Pekerjaan Ayah" id="">
                     </div>
                     <div class="col-md-8">
-                        <label for=""><b>Pekerjaan Ibu :</b></label>
-                        <input type="text" class="form-control" name="pekerjaan_ibuk"  value="<?= $a->pekerjaan_ibuk ?>" required placeholder="Pekerjaan Ibu" id="">
+                        <label for=""><b>Pekerjaan Ibuk :</b></label>
+                        <input type="text" class="form-control" name="pekerjaan_ibuk"  value="<?= $a->pekerjaan_ibuk ?>" required placeholder="Pekerjaan Ibuk" id="">
                     </div>  <div class="col-md-8">
-                        <label for=""><b>Nomor Wali :</b></label>
+                        <label for=""><b>Nomor Telpon Wali :</b></label>
                         <input type="text" class="form-control" name="no_wali"  value="<?= $a->no_wali ?>" required  id="">
                     </div>
                     <br>
                     <button type="submit" class="btn btn-success">Simpan</button>
                     <button type="reset" class="btn btn-danger">Batal</button>
                 </form>
-                <?php endforeach;?> 
+                <?php endforeach;?>
+                  
             </div>
           
           </div>
